@@ -68,13 +68,6 @@ body{
 
     }
 
-}
-.container .down {
-
-}
-.container .down {
-
-}
 .container .down .cards{
     display: flex;   
     @media (max-width:375px) {
@@ -125,7 +118,7 @@ body{
     border-top: 5px solid hsl(212, 86%, 64%);
     position: relative;
     top: 250px;
-    right: 500px;   
+    right: 456px;   
     @media (max-width:375px) {position: relative;
         top: 110px;
         left:0px;
