@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+    @media (max-width:375px) {
+        text-align: center;    
+        justify-content: center;   
+    }
+    
+}
+
+.container{
+    justify-content: center;
+    @media (max-width:375px) {
+        margin: 0 ;
+        
+    }
+    
+}
+.container .top{
+    margin: 0 auto;
+    width: 479px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;   
+    @media (max-width:375px) {
+        width: 370px;
+        text-align: center;
+
+    }
+}
+.container .top h2{
+    font-size: 28px;
+    font-weight: 300;
+    color: hsl(229, 6%, 66%);
+    @media (max-width:375px) {
+        font-size: 18px;
+
+    }
+}
+.container .top h1{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: hsl(234, 12%, 34%);    
+    @media (max-width:375px) {
+        font-size: 18px;
+
+    }
+
+}
+.container .top p{
+    color: hsl(229, 6%, 66%);
+    width: 500px;
+    font-size: 14px;
+    font-weight: 400;
+    @media (max-width:375px) {
+        font-size: 16px;
+        width: 320px;
+        margin: 0 auto;
+        text-align:center;
+
+    }
+
+}
+.container .down {
+
+}
+.container .down {
+
+}
+.container .down .cards{
+    display: flex;   
+    @media (max-width:375px) {
+        display: block;
+        justify-content: center;
+        text-align: center;
+        
+    }
+
+}
+.container .down .cards .card:first-child{
+    border-top: 5px solid hsl(180, 62%, 55%);
+    position: relative;
+    top: 100px;
+    left: 200px;
+    margin-left: 20px;   
+    @media (max-width:375px) {  
+        position: relative;
+        top: 25px;
+        left:0px;
+        margin: 0 auto;   
+    }
+}
+.container .down .cards .card:nth-child(2){
+    border-top: 5px solid hsl(0, 78%, 62%);
+    position: relative;
+    left: 205px;   
+    @media (max-width:375px) {position: relative;
+        top: 50px;
+        left:0px;
+        margin: 0 auto;
+    }
+
+}
+.container .down .cards .card:nth-child(3){
+    border-top: 5px solid  hsl(34, 97%, 64%);    
+    position: relative;
+    top: 100px;
+    left: 210px;   
+    @media (max-width:375px) {position: relative;
+        top: 80px;
+        left:0px;
+        margin: 0 auto;
+
+    }
+}
+.container .down .cards .card:last-child{
+    border-top: 5px solid hsl(212, 86%, 64%);
+    position: relative;
+    top: 250px;
+    right: 500px;   
+    @media (max-width:375px) {position: relative;
+        top: 110px;
+        left:0px;
+        margin: 0 auto;
+
+    }
+}
+.container .down .cards .card{
+    border-radius: 10px;
+    width: 330px;
+    height: 220px;
+    text-align: start;
+    padding: 30px;
+    margin-right: 20px;
+    background-color: hsl(0, 0%,100%);
+    box-shadow: 0px 5px 10px hsl(229, 6%, 66%);
+    @media (max-width:375px) {
+        display: block;   
+    }
+}
+
+
+
+.container .down .cards .card img{
+    position: relative;
+    top: 30px;
+    left: 220px;
+    width: 60px;
+}
+
+.container .down .cards .card h1{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: hsl(234, 12%, 34%);
+
+}
+.container .down .cards .card p{
+    color:hsl(229, 6%, 66%);
+    font-size: 12px;
+    width: 250px;
+    font-weight: 600;
+
+}
+
+
+
+
+
+
+.attribution {
+    position: relative;
+    top:280px;
+    font-size: 11px; 
+    text-align: center;
+    @media (max-width:375px) {
+        position: relative;
+        top: 125px;
+    }
+}
+.attribution a { color: hsl(228, 45%, 44%); }
