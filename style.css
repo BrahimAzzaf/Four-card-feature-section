@@ -118,7 +118,7 @@ body{
     border-top: 5px solid hsl(212, 86%, 64%);
     position: relative;
     top: 250px;
-    right: 456px;   
+    right: 452px;   
     @media (max-width:375px) {position: relative;
         top: 110px;
         left:0px;
